@@ -1,0 +1,10 @@
+.navbar-default .navbar-brand {
+    color: black;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image:url(../Images/nathan-anderson-158077.jpg);
+    background-size: cover;
+   background-position: center;

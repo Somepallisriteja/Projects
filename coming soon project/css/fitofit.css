@@ -1,0 +1,29 @@
+body{
+    
+   
+    background: url("../images/pexels-photo-207361.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.6;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Metal Mania', cursive;
+}
+div{
+    background-color: white;
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+button{
+    background: #f79e0e;
+    color: white;
+    padding:5px;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.8em;
+}
+h1{
+    font-size: 2.2em;
+}
