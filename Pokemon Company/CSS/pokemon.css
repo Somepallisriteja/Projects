@@ -1,0 +1,31 @@
+body{
+    padding: 20px;
+    color: white;
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    
+}
+.carousel{
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.carousel .item{
+    height: 400px;
+    background-color: brown
+}
+
+.carousel-inner > .item >img{
+    position: absolute;
+    height: 500px;
+    min-width: 20px;
+    top: 0;
+    left: 0;
+    
+}
+
