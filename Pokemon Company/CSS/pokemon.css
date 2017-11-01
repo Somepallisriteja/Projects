@@ -44,7 +44,17 @@ body{
     margin-left: 10px;
 }
 
+.divider{
+    margin: 40px 0;
+}
 
+.para{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.content{
+    margin-bottom: 30px;
+}
 
 
 
