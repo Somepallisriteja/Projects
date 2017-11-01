@@ -1,7 +1,7 @@
 body{
     padding-bottom: 20px;
     color: black;
-    font-family: 'Catamaran', sans-serif;
+    
 }
 .navbar-wrapper{
     position: absolute;
@@ -49,6 +49,7 @@ body{
 }
 
 .para{
+    text-align: center;
     padding-left: 50px;
     padding-top: 50px;
 }
@@ -56,7 +57,9 @@ body{
     margin-bottom: 30px;
 }
 
-
+footer{
+    margin: 0 85px;
+}
 
 
 
