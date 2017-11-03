@@ -7,12 +7,17 @@ var greeting = "";
 
 
 var MyFavourites = ["Kohli", "Dhoni", "Williamson", "ABD"];
-//var i;
+var i;
+for(i=0; i<MyFavourites.length; i++){
 
-greeting += MyFavourites[0] + "<br>";
-greeting += MyFavourites[1] + "<br>";
-greeting += MyFavourites[2] + "<br>";
-greeting += MyFavourites[3] + "<br>";
+
+  greeting += MyFavourites[i] + "<br>";
+}
+
+
+//greeting += MyFavourites[1] + "<br>";
+//greeting += MyFavourites[2] + "<br>";
+//greeting += MyFavourites[3] + "<br>";
 
 
 
