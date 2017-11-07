@@ -1,28 +1,19 @@
-//var MyScore = 500;
-//var HighScore = 600;
-
-//var greeting = MyScore + HighScore;
-
-var greeting = "";
 
 
-var MyFavourites = ["Kohli", "Dhoni", "Williamson", "ABD"];
-var i;
-for(i=0; i<MyFavourites.length; i++){
+/* Function basics
 
 
-  greeting += MyFavourites[i] + "<br>";
+function increaseHighScore(currentScore){
+
+    var newHighScore = currentScore * 2;
+    return newHighScore;
+
+
 }
+console.log(increaseHighScore(4));  */
 
-
-//greeting += MyFavourites[1] + "<br>";
-//greeting += MyFavourites[2] + "<br>";
-//greeting += MyFavourites[3] + "<br>";
-
+// Functions as objects
 
 
 
 
-
-
-document.getElementById("test").innerHTML = greeting;
