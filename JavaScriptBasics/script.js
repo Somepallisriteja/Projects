@@ -10,7 +10,7 @@
 
 
 }
-console.log(increaseHighScore(4)); */
+console.log(increaseHighScore(4));
 
 //Prototyping a function
 
@@ -30,7 +30,19 @@ peterParker = new SuperHero;
 peterParker.power = "fly";
 peterParker.walk();
 
-console.log(peterParker.walk());
+console.log(peterParker.walk());     */
 
 
 
+//Multiple CALL and ARGUEMENTS//
+
+var multiplier = function(){
+    var result = 1;
+    for(var i = arguments.length -1; i >= 0; i--){
+        result *= arguments[i];
+    }
+    return result;
+}
+
+
+console.log(multiplier(2,5,7,9));
