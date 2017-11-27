@@ -1,0 +1,17 @@
+body{
+
+    background-color: green;
+    color: white
+}
+
+.center{
+
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.center button{
+
+    color: red;
+}
