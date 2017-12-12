@@ -12,34 +12,26 @@
 
 	<!--  -->
 
-    	<script src="script.js">
-    
-      
-    </script>	
+    	
 
 </head>
 
 <body>
-
-	<div class="container">
-	
-	
+   
+    <div class="container">
 	<form action="" name="passGen">
-	    <input type="text" size="18" name="output">
-	    <input type="button" value="Generate Password" onClick="populateform(this.form.length.value)"> <br>
-	    
-	   <strong>Password Length: </strong> <input type="text" name="length" size="5" value="6">
+    <div class="col-xs-12">
+	    <input type="text" size="18" name="output" class="out" disabled>
+	    <input type="button" value="Generate Password" class="btn btn-success btn-block myBtn" onClick="populateform(this.form.length.value)"> 
+	    <div class="col-xs-10"><strong class="pass">Password Length: </strong></div>
+	    <div class="col-xs-2"><input type="text" name="length" size="5" value="6" class="in"></div>
+	    </div>
 	</form>
-
-	</div>
+    </div>
 	
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-	<script>
-	</script>
+    <script src="script.js"></script>
 
 </body>
 

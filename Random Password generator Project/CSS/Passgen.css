@@ -1,0 +1,45 @@
+body{
+    background: rgba(143,2,34,1);
+background: -moz-linear-gradient(left, rgba(143,2,34,1) 9%, rgba(143,2,34,1) 46%, rgba(153,2,37,1) 66%, rgba(160,3,39,1) 82%, rgba(169,3,41,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(9%, rgba(143,2,34,1)), color-stop(46%, rgba(143,2,34,1)), color-stop(66%, rgba(153,2,37,1)), color-stop(82%, rgba(160,3,39,1)), color-stop(100%, rgba(169,3,41,1)));
+background: -webkit-linear-gradient(left, rgba(143,2,34,1) 9%, rgba(143,2,34,1) 46%, rgba(153,2,37,1) 66%, rgba(160,3,39,1) 82%, rgba(169,3,41,1) 100%);
+background: -o-linear-gradient(left, rgba(143,2,34,1) 9%, rgba(143,2,34,1) 46%, rgba(153,2,37,1) 66%, rgba(160,3,39,1) 82%, rgba(169,3,41,1) 100%);
+background: -ms-linear-gradient(left, rgba(143,2,34,1) 9%, rgba(143,2,34,1) 46%, rgba(153,2,37,1) 66%, rgba(160,3,39,1) 82%, rgba(169,3,41,1) 100%);
+background: linear-gradient(to right, rgba(143,2,34,1) 9%, rgba(143,2,34,1) 46%, rgba(153,2,37,1) 66%, rgba(160,3,39,1) 82%, rgba(169,3,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', endColorstr='#a90329', GradientType=1 );
+}
+
+.container{
+    width: 600px;
+    margin: 0, auto;
+    margin-top: 100px;
+    font-size: 2em;
+}
+.out{
+    
+margin-bottom: 10px;
+width: 100%;
+color: crimson;
+}
+
+.myBtn{
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.pass{
+    color: aqua;
+    float: left;
+    width: 400px;
+    padding: 8px;
+    background-color: crimson;
+    
+}
+.in{
+    margin: 0px;
+    padding :  7.5px;
+    text-align: center;
+    float: right;
+    color: crimson;
+  
+}
